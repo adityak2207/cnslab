@@ -4,7 +4,7 @@ using namespace std;
 
 int mod(int a, int b) {
     int r = a%b;
-    return r>0 ? r : r+b;
+    return r>=0 ? r : r+b;
 }
 
 string caesarCipher(string ps, int key, char option) {
